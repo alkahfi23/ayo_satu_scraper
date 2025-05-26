@@ -8,7 +8,7 @@ from io import BytesIO
 BASE_LIST_URL = "https://passport.ayosatu.id/api/tpgp/pengajuan"
 DETAIL_URL = "https://passport.ayosatu.id/api/tpgp/pengajuan/{id}/detail"
 TGP_ID = "3236c0b6-bbda-4029-85e3-ccb80e87995f"
-SEKOLAH_ID = os.getenv("SEKOLAH_ID")
+SEKOLAH_ID = os.getenv("SEKOLAH_ID", "4382")
 LIMIT = 10
 
 TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
